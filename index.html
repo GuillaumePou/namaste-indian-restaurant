@@ -8,14 +8,14 @@
 		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
     	<title>Namaste India</title>
-    	<link rel="icon" href="../images/logo.png">
+    	<link rel="icon" href="images/logo.png">
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	  	<div id="Benvenuti">
 	  		<!---Start navigation Bar -->
 	    	<nav class="navbar navbar-expand-lg navbar fixed-top  navbar-light bg-light">
 		 		<a class="navbar-brand" href="#Benvenuti">
-    				<img src="../images/logo.png" width="50" height="50" class="d-inline-block" alt=""> Namaste India
+    				<img src="images/logo.png" width="50" height="50" class="d-inline-block" alt=""> Namaste India
 		 		</a>
 		 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 		    		<span class="navbar-toggler-icon"></span>
@@ -54,21 +54,21 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-				    	<img class="d-block w-100 img-fluid img-slider" src="../images/slider1.jpg" alt="First slide">
+				    	<img class="d-block w-100 img-fluid img-slider" src="images/slider1.jpg" alt="First slide">
 				    	<div class="carousel-caption">
 						    <h2>Willkommen!</h2>
 							<p>...</p>
 						</div>
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100 img-fluid img-slider" src="../images/slider2.jpg" alt="Second slide">
+				      	<img class="d-block w-100 img-fluid img-slider" src="images/slider2.jpg" alt="Second slide">
 				      	<div class="carousel-caption">
 						    <h2>Traditionelle Indian Küche</h2>
 							<p>...</p>
 						</div>
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100 img-fluid img-slider" src="../images/slider3.jpg" alt="Third slide">
+				      	<img class="d-block w-100 img-fluid img-slider" src="images/slider3.jpg" alt="Third slide">
 				      	<div class="carousel-caption">
 						    <h2>Ausgewählte Produkte</h2>
 							<p>...</p>
@@ -101,13 +101,13 @@
   					<p>Grazie per esserti fermato. Siamo l'ultimo autentico ristorante italiano a Lübeck, che serve deliziosi piatti della cucina italiana cucinati dai migliori chef. Ti bastano pochi minuti per navigare attraverso il nostro sito Web e controllare il nostro menu .Speriamo che ti unirai presto a noi per una superba esperienza culinaria italiana.</p>
   				</div>
   				<div class="col-md-6" data-aos="fade-up">
-  					<img class="img-fluid" src="../images/location.jpg">
+  					<img class="img-fluid" src="images/location.jpg">
   				</div>
   			</div>
   			<div class="row bg-light"><br></div>
   			<div class="row bg-light">
   				<div class="col-md-6 order-md-1 order-2" data-aos="fade-up">
-  					<img class="img-fluid " src="../images/cuisinejpg">
+  					<img class="img-fluid " src="images/cuisine.jpg">
   				</div>
   				<div class="col-md-6 order-md-12 order-1">
   					<h3>Cucina</h3>
@@ -117,61 +117,41 @@
   				</div>
   			</div>
   			<!--- End of Ristorante -->
+
+			
+
   			<!--- Start of Menu-->
 			<div class="row" id="Menu">
 				<div class="col navMenu">
 	     		 	<h2 class="text-center" >~ Menu ~</h2>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4" data-aos="slide-up">
-					<div class="card view zoom">
-  						<img class="card-img-top img-fluid " src="../images/menu-carne.jpg">
-					  	<div class="card-body">
-					  		<h5 class="card-title">~ Menu di Carne ~</h5>
-					    	<ul class="list-group list-group-flush">
-							    <li class="list-group-item">Bocconcini di carne in nido di sfoglia</li>
-							    <li class="list-group-item">Bruschette con maiale al curry</li>
-							 	<li class="list-group-item">Uova al prosciutto</li>
-							 	<li class="list-group-item">Vitello tonnato</li>
-							 	<li class="list-group-item">Fesa di tacchino marinata con olive</li>
-							</ul>
-					  	</div>
-					</div>
+
+			<div class="row bg-light">
+				<div class="col-md-6">
+				<!--- PDF menu -->
+				<object data="pdf/Namaste_menu.pdf" type="application/pdf" 
+				width="500"
+				height="678"      >
+
+				<iframe
+				  src='pdf/Namaste_menu.pdf'
+				  width="500"
+				  height="678"
+				>
+				<p>This browser does not support PDF!</p>
+				</iframe>
+				
+			  </object>	
 				</div>
-				<div class="col-md-4" data-aos="slide-up">
-					<div class="card">
-  						<img class="card-img-top img-fluid " src="../images/menu-pesce.jpg" alt="Card image cap">
-					  	<div class="card-body">
-					  		<h5 class="card-title">~ Menu di Pesce ~</h5>
-					    	<ul class="list-group list-group-flush">
-							    <li class="list-group-item">Carpaccio di polpo</li>
-							    <li class="list-group-item">Cozze al verde</li>
-							 	<li class="list-group-item">Cocktail di gamberi</li>
-							 	<li class="list-group-item">Risotto alla crema di scampi</li>
-							 	<li class="list-group-item">Ravioli di pesce con crema di scampi</li>
-							</ul>
-					  	</div>
-					</div>
-				</div>
-				<div class="col-md-4" data-aos="slide-up">
-					<div class="card">
-  						<img class="card-img-top img-fluid" src="../images/menu-vegetarian.jpg" alt="Card image cap">
-					  	<div class="card-body">
-					  		<h5 class="card-title">~ Menü ~</h5>
-					    	<ul class="list-group list-group-flush">
-							    <li class="list-group-item">Parmigiana di melanzane</li>
-							    <li class="list-group-item">Strudel con ricotta e spinaci</li>
-							 	<li class="list-group-item">Polpette di spinaci e ricotta</li>
-							 	<li class="list-group-item">Frittata di patate al forno</li>
-							 	<li class="list-group-item">Spaghetti con le polpettine vegetariane</li>
-							</ul>
-					  	</div>
-					</div>
+				<div class="col-md-6" data-aos="fade-up">
+					<img class="img-fluid" src="images/food2.jpg"
+					width="500"
+					height="330">
 				</div>
 			</div>
 			<!--- End of Menu -->
-			<!--- Start of Prenota-->
+			<!--- Start of Reservation-->
 			<div class="row" id="Prenotazione">
 				<div class="col navMenu">
 	     		 	<h2 class="text-center">~ Buch ~</h2>
@@ -179,7 +159,7 @@
 			</div>
 			<div class="row">
 				<div class=" col-lg-12 prenota-container" data-aos="fade-up">
-					<img class="img-fluid image-prenota" src="../images/reserve.jpg">
+					<img class="img-fluid image-prenota" src="images/reserve.jpg">
 					<div class="prenota-text col-lg-12 ">
 						<h1 class="text-center">Fahrpläne</h1>
 						<div class="row">
@@ -263,18 +243,15 @@
 				<div class="col">
 					<p class="text-center">Copyright &copy; 2022</p>
 				</div>
-				<div class="col">
-					<p class="text-center">Powered by: <a href="https://rubik-technologies.com/">Rubik Technologies</a></p>
-				</div>
 			</div>
 		</div>
 		<footer class="container">
 			<div class= "row only-mobile">
 				<div class="col-6">
-					<a class="btn btn-primary btn-block text-center" href="tel:+390000000"><i class="fa fa-phone" aria-hidden="true"></i> Chiama</a>
+					<a class="btn btn-primary btn-block text-center" href="tel:+4945147986836"><i class="fa fa-phone" aria-hidden="true"></i> Chiama</a>
 				</div>
 				<div class="col-6">
-					<a class="btn btn-success btn-block text-center" href="https://api.whatsapp.com/send?phone=+390000000"><i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
+					<a class="btn btn-success btn-block text-center" href="https://api.whatsapp.com/send?phone=+49 451 47986836"><i class="fab fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
 				</div>
 			</div>
 		</footer>
